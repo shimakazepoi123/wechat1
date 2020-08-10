@@ -11,9 +11,9 @@ import senya
 
 class poi:
     def __init__(self):
-        self.Appid = 'wxc99887c60a8b96ec'
-        self.Token = '3b3149d56bd02dd8a3e805b0008bdb13'
-        self.encodingkey = 'eLDdhoBB16J4j9pfqPruXz4rJ2sxmHLXbJH5oXgVUSc'
+        self.Appid = ''
+        self.Token = ''
+        self.encodingkey = ''
 
     def _get_args(self,req):
         query_string = req.query_string
