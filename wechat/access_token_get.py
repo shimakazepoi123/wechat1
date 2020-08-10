@@ -11,9 +11,9 @@ class wechat(object):
 
     def __init__(self):
         self.filename = '1.csv'
-        self.Appid = 'wxc99887c60a8b96ec'
-        self.Appsecreat = '26f0e822c964ab622f8eab6c52222e09'
-        self.Token = '3b3149d56bd02dd8a3e805b0008bdb13'
+        self.Appid = ''
+        self.Appsecreat = ''
+        self.Token = ''
 
     def read_csv(self,filename):
         with open(filename,'r') as file:
